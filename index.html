@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Shravani 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="background-shapes">
+        <span>🎈</span>
+        <span>✨</span>
+        <span>🎈</span>
+        <span>💫</span>
+        <span>⭐</span>
+        <span>🎈</span>
+    </div>
+
+
+    <!-- =========================
+         SCREEN 1
+    ========================== -->
+
+    <section class="screen active" id="screen1">
+
+        <div class="screen-content">
+
+            <div class="intro-sparkle">✨</div>
+
+            <p class="small-text">
+                A little surprise is waiting for you...
+            </p>
+
+            <h1>
+                Hey
+                <span>Shravani!</span>
+            </h1>
+
+            <p class="description">
+                Someone made a tiny birthday surprise for you 🎁
+            </p>
+
+            <button class="main-btn" onclick="nextScreen()">
+                🎁 Start the Surprise
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 2
+    ========================== -->
+
+    <section class="screen" id="screen2">
+
+        <div class="screen-content">
+
+            <div class="big-emoji">
+                🎂
+            </div>
+
+            <p class="small-text">
+                Today is your special day...
+            </p>
+
+            <h1>
+                Happy Birthday
+                <span>Shravani!</span>
+            </h1>
+
+            <p class="description">
+                Wishing you a day full of happiness,
+                laughter and amazing moments! 🎉
+            </p>
+
+            <button class="next-btn" onclick="nextScreen()">
+                Next <span class="countdown">10</span> →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 3
+    ========================== -->
+
+    <section class="screen" id="screen3">
+
+        <div class="screen-content message-content">
+
+            <div class="message-icon">
+                💌
+            </div>
+
+            <p class="small-text">
+                A little birthday note
+            </p>
+
+            <h2>
+                Just for You 🌸
+            </h2>
+
+            <div class="message-box">
+
+                <p>
+                    Hey Shravani! 👋
+                </p>
+
+                <p>
+                    Wishing you a very Happy Birthday! 🎂🥳
+                </p>
+
+                <p>
+                    I hope this year brings you lots of happiness,
+                    good memories, success and plenty of reasons to smile.
+                </p>
+
+                <p>
+                    Stay the same fun and cheerful person you are.
+                    Keep enjoying the little things and
+                    make every moment count. ✨
+                </p>
+
+                <p>
+                    Have an amazing birthday! 🎈
+                </p>
+
+            </div>
+
+            <button class="next-btn" onclick="nextScreen()">
+                Next <span class="countdown">10</span> →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 4
+    ========================== -->
+
+    <section class="screen" id="screen4">
+
+        <div class="screen-content">
+
+            <p class="small-text">
+                My wishes for you ✨
+            </p>
+
+            <h2>
+                Hope You Get...
+            </h2>
+
+            <div class="wish-grid">
+
+                <div class="wish-card">
+                    <div>😊</div>
+                    <h3>Lots of Smiles</h3>
+                    <p>
+                        More reasons to laugh
+                        and enjoy every day.
+                    </p>
+                </div>
+
+                <div class="wish-card">
+                    <div>🌟</div>
+                    <h3>Big Success</h3>
+                    <p>
+                        May all your hard work
+                        turn into something amazing.
+                    </p>
+                </div>
+
+                <div class="wish-card">
+                    <div>💫</div>
+                    <h3>Good Vibes</h3>
+                    <p>
+                        Positive energy and
+                        amazing people around you.
+                    </p>
+                </div>
+
+                <div class="wish-card">
+                    <div>🎉</div>
+                    <h3>Great Memories</h3>
+                    <p>
+                        Lots of moments worth
+                        remembering forever.
+                    </p>
+                </div>
+
+            </div>
+
+            <button class="next-btn" onclick="nextScreen()">
+                Next <span class="countdown">10</span> →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 5
+    ========================== -->
+
+    <section class="screen final-screen" id="screen5">
+
+        <div class="screen-content">
+
+            <div class="gift">
+                🎁
+            </div>
+
+            <p class="small-text">
+                And finally...
+            </p>
+
+            <h2>
+                One Last Thing 💫
+            </h2>
+
+            <p class="final-text">
+                May the coming year bring you
+                happiness, success, adventures,
+                good friends and lots of unforgettable moments.
+            </p>
+
+            <button class="celebrate-btn" onclick="celebrate()">
+                🎉 Open Final Surprise
+            </button>
+
+            <div id="final-message">
+
+                <h1>
+                    HAPPY BIRTHDAY
+                    <span>SHRAVANI!</span> 🎂
+                </h1>
+
+                <p>
+                    Keep smiling, keep shining
+                    and have an absolutely amazing year ahead! ✨
+                </p>
+
+                <div class="emoji-line">
+                    🥳 🎈 🎂 ✨ 🎁 💫
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONFETTI -->
+    <div id="confetti-container"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
